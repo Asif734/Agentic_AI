@@ -1,0 +1,702 @@
+[
+    {
+        "student_id": "student_1001",
+        "name": "Stephanie",
+        "grades": {
+            "Math": "B",
+            "CS": "C-",
+            "Physics": "B-",
+            "Chemistry": "B+",
+            "English": "C+",
+            "History": "B"
+        },
+        "schedule": "Tue, Wed, Thu 15:00 - 9:00",
+        "student_email": "dwalter@example.net"
+    },
+    {
+        "student_id": "student_1002",
+        "name": "David",
+        "grades": {
+            "Math": "A",
+            "CS": "C",
+            "Physics": "B-",
+            "Chemistry": "B+",
+            "English": "C-",
+            "History": "A-"
+        },
+        "schedule": "Thu, Tue, Wed 14:00 - 18:00",
+        "student_email": "william54@example.net"
+    },
+    {
+        "student_id": "student_1003",
+        "name": "Michael",
+        "grades": {
+            "Math": "B+",
+            "CS": "B+",
+            "Physics": "C-",
+            "Chemistry": "A-",
+            "English": "A-",
+            "History": "B-"
+        },
+        "schedule": "Wed, Mon, Thu 12:00 - 15:00",
+        "student_email": "bridget36@example.com"
+    },
+    {
+        "student_id": "student_1004",
+        "name": "Danny",
+        "grades": {
+            "Math": "C+",
+            "CS": "B",
+            "Physics": "B-",
+            "Chemistry": "A",
+            "English": "B+",
+            "History": "B+"
+        },
+        "schedule": "Thu, Mon, Wed 8:00 - 18:00",
+        "student_email": "hilljanet@example.org"
+    },
+    {
+        "student_id": "student_1005",
+        "name": "Melissa",
+        "grades": {
+            "Math": "A-",
+            "CS": "B",
+            "Physics": "B",
+            "Chemistry": "A",
+            "English": "B+",
+            "History": "A-"
+        },
+        "schedule": "Mon, Tue, Thu 9:00 - 9:00",
+        "student_email": "ckaufman@example.com"
+    },
+    {
+        "student_id": "student_1006",
+        "name": "Jack",
+        "grades": {
+            "Math": "C+",
+            "CS": "C",
+            "Physics": "C+",
+            "Chemistry": "A-",
+            "English": "B-",
+            "History": "A-"
+        },
+        "schedule": "Tue, Thu, Fri 15:00 - 10:00",
+        "student_email": "jessica58@example.net"
+    },
+    {
+        "student_id": "student_1007",
+        "name": "Samantha",
+        "grades": {
+            "Math": "A-",
+            "CS": "C-",
+            "Physics": "B",
+            "Chemistry": "A-",
+            "English": "C-",
+            "History": "B"
+        },
+        "schedule": "Tue, Thu, Mon 9:00 - 13:00",
+        "student_email": "rfowler@example.com"
+    },
+    {
+        "student_id": "student_1008",
+        "name": "Peter",
+        "grades": {
+            "Math": "C-",
+            "CS": "A",
+            "Physics": "B-",
+            "Chemistry": "C+",
+            "English": "A-",
+            "History": "C"
+        },
+        "schedule": "Thu, Mon, Fri 13:00 - 15:00",
+        "student_email": "wschmidt@example.net"
+    },
+    {
+        "student_id": "student_1009",
+        "name": "Jenna",
+        "grades": {
+            "Math": "A",
+            "CS": "B-",
+            "Physics": "C",
+            "Chemistry": "C+",
+            "English": "A",
+            "History": "A-"
+        },
+        "schedule": "Thu, Tue, Mon 12:00 - 11:00",
+        "student_email": "powellamanda@example.net"
+    },
+    {
+        "student_id": "student_1010",
+        "name": "Lisa",
+        "grades": {
+            "Math": "C+",
+            "CS": "B",
+            "Physics": "B+",
+            "Chemistry": "C+",
+            "English": "B-",
+            "History": "B+"
+        },
+        "schedule": "Wed, Tue, Thu 10:00 - 10:00",
+        "student_email": "nfoster@example.net"
+    },
+    {
+        "student_id": "student_1011",
+        "name": "Megan",
+        "grades": {
+            "Math": "A-",
+            "CS": "B+",
+            "Physics": "C-",
+            "Chemistry": "B-",
+            "English": "C-",
+            "History": "B+"
+        },
+        "schedule": "Fri, Tue, Wed 12:00 - 11:00",
+        "student_email": "tammieroberts@example.net"
+    },
+    {
+        "student_id": "student_1012",
+        "name": "Lindsey",
+        "grades": {
+            "Math": "A-",
+            "CS": "B",
+            "Physics": "A",
+            "Chemistry": "A-",
+            "English": "B",
+            "History": "B+"
+        },
+        "schedule": "Fri, Wed, Thu 11:00 - 15:00",
+        "student_email": "matthewbrown@example.com"
+    },
+    {
+        "student_id": "student_1013",
+        "name": "Tanya",
+        "grades": {
+            "Math": "C",
+            "CS": "C",
+            "Physics": "B-",
+            "Chemistry": "B",
+            "English": "B",
+            "History": "C+"
+        },
+        "schedule": "Thu, Tue, Fri 15:00 - 12:00",
+        "student_email": "bradleycynthia@example.net"
+    },
+    {
+        "student_id": "student_1014",
+        "name": "Kimberly",
+        "grades": {
+            "Math": "B",
+            "CS": "C-",
+            "Physics": "A",
+            "Chemistry": "C",
+            "English": "B+",
+            "History": "A"
+        },
+        "schedule": "Wed, Mon, Thu 11:00 - 11:00",
+        "student_email": "donald48@example.com"
+    },
+    {
+        "student_id": "student_1015",
+        "name": "Jennifer",
+        "grades": {
+            "Math": "B-",
+            "CS": "A",
+            "Physics": "A",
+            "Chemistry": "B-",
+            "English": "B+",
+            "History": "A"
+        },
+        "schedule": "Thu, Fri, Wed 10:00 - 17:00",
+        "student_email": "connie98@example.com"
+    },
+    {
+        "student_id": "student_1016",
+        "name": "Rachel",
+        "grades": {
+            "Math": "B+",
+            "CS": "A",
+            "Physics": "A-",
+            "Chemistry": "C-",
+            "English": "C",
+            "History": "C-"
+        },
+        "schedule": "Wed, Tue, Fri 10:00 - 14:00",
+        "student_email": "lucasjones@example.com"
+    },
+    {
+        "student_id": "student_1017",
+        "name": "Kelly",
+        "grades": {
+            "Math": "C",
+            "CS": "C-",
+            "Physics": "C+",
+            "Chemistry": "C",
+            "English": "A",
+            "History": "C-"
+        },
+        "schedule": "Mon, Thu, Wed 9:00 - 10:00",
+        "student_email": "alvarezkimberly@example.net"
+    },
+    {
+        "student_id": "student_1018",
+        "name": "Daniel",
+        "grades": {
+            "Math": "C+",
+            "CS": "B-",
+            "Physics": "C+",
+            "Chemistry": "B-",
+            "English": "C",
+            "History": "C"
+        },
+        "schedule": "Thu, Fri, Tue 13:00 - 12:00",
+        "student_email": "doylenicholas@example.org"
+    },
+    {
+        "student_id": "student_1019",
+        "name": "Mary",
+        "grades": {
+            "Math": "A",
+            "CS": "B+",
+            "Physics": "A-",
+            "Chemistry": "A-",
+            "English": "B+",
+            "History": "A-"
+        },
+        "schedule": "Thu, Tue, Fri 9:00 - 15:00",
+        "student_email": "ybaird@example.org"
+    },
+    {
+        "student_id": "student_1020",
+        "name": "Misty",
+        "grades": {
+            "Math": "C-",
+            "CS": "B+",
+            "Physics": "B-",
+            "Chemistry": "B+",
+            "English": "A-",
+            "History": "B-"
+        },
+        "schedule": "Wed, Tue, Fri 9:00 - 18:00",
+        "student_email": "pgarner@example.com"
+    },
+    {
+        "student_id": "student_1021",
+        "name": "Scott",
+        "grades": {
+            "Math": "B+",
+            "CS": "C+",
+            "Physics": "C",
+            "Chemistry": "C",
+            "English": "A",
+            "History": "B"
+        },
+        "schedule": "Thu, Mon, Fri 16:00 - 9:00",
+        "student_email": "derek26@example.org"
+    },
+    {
+        "student_id": "student_1022",
+        "name": "Christopher",
+        "grades": {
+            "Math": "B-",
+            "CS": "B",
+            "Physics": "B",
+            "Chemistry": "C+",
+            "English": "B-",
+            "History": "C"
+        },
+        "schedule": "Mon, Wed, Thu 13:00 - 10:00",
+        "student_email": "benjaminjones@example.com"
+    },
+    {
+        "student_id": "student_1023",
+        "name": "Kristina",
+        "grades": {
+            "Math": "C",
+            "CS": "A",
+            "Physics": "B-",
+            "Chemistry": "C",
+            "English": "B-",
+            "History": "A"
+        },
+        "schedule": "Fri, Mon, Tue 15:00 - 16:00",
+        "student_email": "yjoseph@example.com"
+    },
+    {
+        "student_id": "student_1024",
+        "name": "Michael",
+        "grades": {
+            "Math": "C-",
+            "CS": "B-",
+            "Physics": "B",
+            "Chemistry": "C",
+            "English": "B",
+            "History": "C-"
+        },
+        "schedule": "Tue, Fri, Thu 13:00 - 9:00",
+        "student_email": "castanedathomas@example.net"
+    },
+    {
+        "student_id": "student_1025",
+        "name": "Erika",
+        "grades": {
+            "Math": "C+",
+            "CS": "B+",
+            "Physics": "B+",
+            "Chemistry": "A",
+            "English": "B+",
+            "History": "A"
+        },
+        "schedule": "Mon, Tue, Fri 16:00 - 12:00",
+        "student_email": "wwilson@example.org"
+    },
+    {
+        "student_id": "student_1026",
+        "name": "Michael",
+        "grades": {
+            "Math": "A",
+            "CS": "B-",
+            "Physics": "C",
+            "Chemistry": "B+",
+            "English": "B",
+            "History": "B"
+        },
+        "schedule": "Thu, Fri, Mon 13:00 - 10:00",
+        "student_email": "rosslindsey@example.org"
+    },
+    {
+        "student_id": "student_1027",
+        "name": "Diane",
+        "grades": {
+            "Math": "B+",
+            "CS": "B-",
+            "Physics": "C-",
+            "Chemistry": "A-",
+            "English": "B",
+            "History": "A"
+        },
+        "schedule": "Tue, Thu, Wed 12:00 - 13:00",
+        "student_email": "wolfeveronica@example.org"
+    },
+    {
+        "student_id": "student_1028",
+        "name": "Heather",
+        "grades": {
+            "Math": "C",
+            "CS": "B-",
+            "Physics": "B+",
+            "Chemistry": "C+",
+            "English": "A",
+            "History": "B+"
+        },
+        "schedule": "Wed, Mon, Fri 13:00 - 9:00",
+        "student_email": "cfigueroa@example.com"
+    },
+    {
+        "student_id": "student_1029",
+        "name": "Jennifer",
+        "grades": {
+            "Math": "C+",
+            "CS": "B+",
+            "Physics": "A-",
+            "Chemistry": "B-",
+            "English": "C",
+            "History": "C-"
+        },
+        "schedule": "Tue, Thu, Wed 8:00 - 13:00",
+        "student_email": "uflores@example.org"
+    },
+    {
+        "student_id": "student_1030",
+        "name": "Robert",
+        "grades": {
+            "Math": "B",
+            "CS": "C",
+            "Physics": "C+",
+            "Chemistry": "B-",
+            "English": "A",
+            "History": "C+"
+        },
+        "schedule": "Fri, Tue, Mon 12:00 - 9:00",
+        "student_email": "jacobwalker@example.net"
+    },
+    {
+        "student_id": "student_1031",
+        "name": "Donald",
+        "grades": {
+            "Math": "B",
+            "CS": "C-",
+            "Physics": "B+",
+            "Chemistry": "C-",
+            "English": "B",
+            "History": "C"
+        },
+        "schedule": "Fri, Thu, Tue 8:00 - 9:00",
+        "student_email": "tammy73@example.net"
+    },
+    {
+        "student_id": "student_1032",
+        "name": "Henry",
+        "grades": {
+            "Math": "C",
+            "CS": "B",
+            "Physics": "A-",
+            "Chemistry": "A-",
+            "English": "C-",
+            "History": "B-"
+        },
+        "schedule": "Fri, Mon, Thu 14:00 - 17:00",
+        "student_email": "fernandezthomas@example.net"
+    },
+    {
+        "student_id": "student_1033",
+        "name": "Sherry",
+        "grades": {
+            "Math": "B-",
+            "CS": "A-",
+            "Physics": "C",
+            "Chemistry": "A-",
+            "English": "C+",
+            "History": "A-"
+        },
+        "schedule": "Mon, Thu, Tue 8:00 - 15:00",
+        "student_email": "melissamendoza@example.com"
+    },
+    {
+        "student_id": "student_1034",
+        "name": "Antonio",
+        "grades": {
+            "Math": "B-",
+            "CS": "B+",
+            "Physics": "C+",
+            "Chemistry": "A-",
+            "English": "C+",
+            "History": "B"
+        },
+        "schedule": "Fri, Tue, Wed 11:00 - 15:00",
+        "student_email": "edwardcarter@example.net"
+    },
+    {
+        "student_id": "student_1035",
+        "name": "Ryan",
+        "grades": {
+            "Math": "B-",
+            "CS": "B+",
+            "Physics": "B",
+            "Chemistry": "A-",
+            "English": "A",
+            "History": "C"
+        },
+        "schedule": "Fri, Tue, Thu 9:00 - 18:00",
+        "student_email": "lambwalter@example.org"
+    },
+    {
+        "student_id": "student_1036",
+        "name": "Benjamin",
+        "grades": {
+            "Math": "B",
+            "CS": "C",
+            "Physics": "A-",
+            "Chemistry": "A",
+            "English": "B+",
+            "History": "B+"
+        },
+        "schedule": "Mon, Tue, Thu 14:00 - 11:00",
+        "student_email": "russellaustin@example.net"
+    },
+    {
+        "student_id": "student_1037",
+        "name": "Terri",
+        "grades": {
+            "Math": "C",
+            "CS": "C-",
+            "Physics": "A-",
+            "Chemistry": "C",
+            "English": "A-",
+            "History": "B-"
+        },
+        "schedule": "Fri, Thu, Tue 9:00 - 12:00",
+        "student_email": "samantha09@example.org"
+    },
+    {
+        "student_id": "student_1038",
+        "name": "Dustin",
+        "grades": {
+            "Math": "B-",
+            "CS": "B+",
+            "Physics": "A-",
+            "Chemistry": "C+",
+            "English": "B+",
+            "History": "B"
+        },
+        "schedule": "Mon, Wed, Fri 14:00 - 11:00",
+        "student_email": "amy72@example.com"
+    },
+    {
+        "student_id": "student_1039",
+        "name": "Heather",
+        "grades": {
+            "Math": "B-",
+            "CS": "B-",
+            "Physics": "C",
+            "Chemistry": "B",
+            "English": "C-",
+            "History": "C-"
+        },
+        "schedule": "Wed, Fri, Tue 8:00 - 9:00",
+        "student_email": "velasqueznicholas@example.net"
+    },
+    {
+        "student_id": "student_1040",
+        "name": "Matthew",
+        "grades": {
+            "Math": "B",
+            "CS": "B-",
+            "Physics": "A-",
+            "Chemistry": "C",
+            "English": "C-",
+            "History": "B"
+        },
+        "schedule": "Thu, Fri, Mon 13:00 - 9:00",
+        "student_email": "xcraig@example.org"
+    },
+    {
+        "student_id": "student_1041",
+        "name": "Todd",
+        "grades": {
+            "Math": "A-",
+            "CS": "B-",
+            "Physics": "C+",
+            "Chemistry": "B+",
+            "English": "C",
+            "History": "C-"
+        },
+        "schedule": "Tue, Thu, Wed 16:00 - 15:00",
+        "student_email": "jenniferjuarez@example.com"
+    },
+    {
+        "student_id": "student_1042",
+        "name": "Zachary",
+        "grades": {
+            "Math": "C+",
+            "CS": "B",
+            "Physics": "A",
+            "Chemistry": "C-",
+            "English": "C+",
+            "History": "A"
+        },
+        "schedule": "Mon, Fri, Wed 9:00 - 10:00",
+        "student_email": "nicholsonaustin@example.com"
+    },
+    {
+        "student_id": "student_1043",
+        "name": "Jeremy",
+        "grades": {
+            "Math": "C-",
+            "CS": "A",
+            "Physics": "B-",
+            "Chemistry": "C-",
+            "English": "C-",
+            "History": "B+"
+        },
+        "schedule": "Wed, Mon, Thu 9:00 - 11:00",
+        "student_email": "dbenson@example.org"
+    },
+    {
+        "student_id": "student_1044",
+        "name": "Timothy",
+        "grades": {
+            "Math": "B+",
+            "CS": "B-",
+            "Physics": "C",
+            "Chemistry": "C-",
+            "English": "C",
+            "History": "C"
+        },
+        "schedule": "Mon, Fri, Thu 8:00 - 13:00",
+        "student_email": "fjacobs@example.com"
+    },
+    {
+        "student_id": "student_1045",
+        "name": "Richard",
+        "grades": {
+            "Math": "C",
+            "CS": "A-",
+            "Physics": "A-",
+            "Chemistry": "A-",
+            "English": "B-",
+            "History": "C+"
+        },
+        "schedule": "Thu, Tue, Mon 15:00 - 14:00",
+        "student_email": "edward63@example.com"
+    },
+    {
+        "student_id": "student_1046",
+        "name": "Maxwell",
+        "grades": {
+            "Math": "B",
+            "CS": "A-",
+            "Physics": "C",
+            "Chemistry": "B+",
+            "English": "B-",
+            "History": "C+"
+        },
+        "schedule": "Mon, Tue, Thu 9:00 - 13:00",
+        "student_email": "kingjustin@example.net"
+    },
+    {
+        "student_id": "student_1047",
+        "name": "Shannon",
+        "grades": {
+            "Math": "C+",
+            "CS": "B-",
+            "Physics": "C",
+            "Chemistry": "C-",
+            "English": "A",
+            "History": "A-"
+        },
+        "schedule": "Tue, Fri, Wed 15:00 - 9:00",
+        "student_email": "sandra36@example.org"
+    },
+    {
+        "student_id": "student_1048",
+        "name": "Jordan",
+        "grades": {
+            "Math": "A",
+            "CS": "A-",
+            "Physics": "C-",
+            "Chemistry": "C",
+            "English": "A",
+            "History": "A"
+        },
+        "schedule": "Thu, Fri, Wed 11:00 - 13:00",
+        "student_email": "ryan73@example.net"
+    },
+    {
+        "student_id": "student_1049",
+        "name": "Timothy",
+        "grades": {
+            "Math": "C",
+            "CS": "B+",
+            "Physics": "B+",
+            "Chemistry": "B-",
+            "English": "C",
+            "History": "C+"
+        },
+        "schedule": "Fri, Wed, Thu 10:00 - 17:00",
+        "student_email": "lance80@example.com"
+    },
+    {
+        "student_id": "student_1050",
+        "name": "Maria",
+        "grades": {
+            "Math": "A-",
+            "CS": "C+",
+            "Physics": "A-",
+            "Chemistry": "C-",
+            "English": "C-",
+            "History": "C"
+        },
+        "schedule": "Tue, Mon, Wed 11:00 - 11:00",
+        "student_email": "stephenwilliams@example.org"
+    }
+]
