@@ -19,7 +19,7 @@ class OrchestrationAgent:
         prompt = f"""
         You are a router. Classify the user's message into one of these categories:
         1. PUBLIC: General, casual, or academic questions with no sensitive data.
-        2. PRIVATE: Personal data like grades, ID, financial details, or login info.
+        2. PRIVATE: Personal data like grades, ID, result, cgpa, due, financial details, or login info.
         3. MENTAL_HEALTH: Messages expressing stress, depression, anxiety, or emotional distress.
 
         User message: "{message}"

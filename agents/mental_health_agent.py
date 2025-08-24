@@ -32,7 +32,7 @@ class MentalHealthAgent:
 
     def __init__(
         self,
-        csv_file=r"C:\Users\Asif\VSCODE\University Chatbot\data\train.csv",
+        csv_file=r"C:\Users\Asif\VSCODE\Agentic_AI\data\train.csv",
         index_path="data/mh_index.faiss",
         meta_path="data/mh_meta.pkl",
         embed_model_name="sentence-transformers/all-MiniLM-L6-v2",

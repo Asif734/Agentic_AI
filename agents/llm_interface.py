@@ -1,19 +1,19 @@
-# llm_interface.py
+# agents/llm_interface.py
 import ollama
 
-def local_llm(prompt: str) -> str:
+def local_llm(prompt: str, memory_manager=None) -> str:
     """
-    Sends the prompt to the Qwen-3 model via Ollama Python SDK.
+    Sends the prompt to the Ollama LLM.
+    If memory_manager is provided, include conversation context.
     """
     try:
-        # Ollama API call
+        if memory_manager:
+            prompt = memory_manager.get_contexted_prompt(prompt)
+
         response = ollama.chat(
-            model="qwen3:4b",
+            model="deepseek-r1:1.5b",
             messages=[{"role": "user", "content": prompt}]
         )
-        
-        # ✅ Correct way to extract the content
         return response['message']['content']
-    
     except Exception as e:
         return f"[LLM Error] {str(e)}"

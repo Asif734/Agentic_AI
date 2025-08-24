@@ -11,8 +11,17 @@ class MemoryManager:
 
     def get_summary(self) -> str:
         """
-        Summarize conversation buffer for context.
-        You can use an LLM summarization call here, or a simple string join.
+        Return conversation history as a single string suitable for LLM prompts.
         """
         summary_lines = [f"{m['role']}: {m['content']}" for m in self.buffer]
         return "\n".join(summary_lines)
+
+    def get_contexted_prompt(self, user_prompt: str) -> str:
+        """
+        Combine memory summary + new user input into one prompt.
+        """
+        history = self.get_summary()
+        if history:
+            return f"{history}\nUser: {user_prompt}\nAssistant:"
+        else:
+            return f"User: {user_prompt}\nAssistant:"

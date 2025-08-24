@@ -2,7 +2,7 @@
 import json
 
 class PrivateAgent:
-    def __init__(self, json_file=r"C:\Users\Asif\VSCODE\University Chatbot\data\private_student_data.json"):
+    def __init__(self, json_file=r"C:\Users\Asif\VSCODE\Agentic_AI\data\private_student_data.json"):
         with open(json_file, "r") as f:
             self.data = json.load(f)
 
